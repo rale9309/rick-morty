@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://images6.alphacoders.com/909/thumb-1920-909641.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 30px 0;
+    min-height: 100%;
+    font-size: 20px;
+    color: rgb(63, 62, 62);
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(37, 224, 224);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(63, 62, 62);
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: rgb(247, 202, 148);
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+a:hover {
+    font-weight: 600;
+}
+
+.details {
+    background-color: white;
+    width: 30%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+}
+
+.details-img {
+    width: 320px;
+}
+
+.name, .lokacija, .species, .status {
+    background-color: rgba(37, 224, 224, 0.822);
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
